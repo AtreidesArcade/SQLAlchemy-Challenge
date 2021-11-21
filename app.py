@@ -44,15 +44,13 @@ def welcome():
     return (
         f"<h1>SQL-Alchemy Challenge Step 2 Climate App</h1>"
         f"<h1>This is a Flask API for Climate Analysis</h1>"
-        f"<br/><br/><br/>"
-        f" <img width='500' src='https://www.surfertoday.com/images/stories/surfingsport.jpg'/ >"
+        f"<br/><br/>"
         f"<h2>Available API routes:</h2>"
         f"/api/v1.0/precipitation<br/>"
         f"/api/v1.0/stations<br/>"
         f"/api/v1.0/tobs<br/>"
         f"/api/v1.0/start<br/>"
         f"/api/v1.0/start/end<br/>"
-
         f"<h2>Here are the hyperlinked routes you can click to see different pages:</h2>"
         f"<ol><li><a href=http://127.0.0.1:5000/api/v1.0/precipitation>"
         f"JSON list of precipitation amounts by date for the most recent year of data available</a></li><br/><br/>"
